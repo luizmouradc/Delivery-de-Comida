@@ -1,0 +1,75 @@
+.janela-login {
+    position: fixed; /* Fixa no viewport */
+    z-index: 9999; /* Coloca acima de outros elementos */
+    width: 100%; /* Ocupa toda a largura */
+    height: 100vh; /* Ocupa toda a altura */
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente */
+    display: grid; /* Centraliza conteúdo */
+    place-items: center; /* Centraliza horizontal e verticalmente */
+}
+
+.janela-login-container{
+    place-self: center;
+    width: max(23vw,330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.janela-login-titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.janela-login-titulo img{
+    width: 16px;
+    cursor: pointer;
+}
+
+.janela-login-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.janela-login-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px; 
+}
+
+.janela-login-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.janela-login-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.janela-login-condition input{
+    margin-top: 5px;
+}
+
+.janela-login p span{
+    color: tomato;
+    font-weight: 500;
+    cursor: pointer;
+}
