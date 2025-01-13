@@ -3,7 +3,7 @@
 ## Sobre o projeto
 O Tomato é uma aplicação web projetada para gerenciar pedidos de maneira eficiente, abrangendo funcionalidades para clientes e administradores. A plataforma permite que clientes realizem pedidos facilmente e acompanhem seu progresso, enquanto administradores têm controle total sobre os pedidos e o cardápio.
 
-Acesse o projeto online em: [Tomato - Delivery de Comida]([https://ll-burguer.vercel.app/](https://tomato-xfdo.onrender.com))
+Acesse o projeto online em: [Tomato - Delivery de Comida](https://tomato-xfdo.onrender.com)
 
 A aplicação utiliza React para a interface do usuário, Node.js com Express para o backend, MongoDB para o gerenciamento de dados e Stripe para processamento de pagamentos, garantindo uma solução completa e moderna para gerenciamento de pedidos.
 
