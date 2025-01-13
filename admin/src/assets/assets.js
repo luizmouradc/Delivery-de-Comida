@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://delivery-de-comida-ybm2.onrender.com' //'http://localhost:4000'
+//export const url = 'https://delivery-de-comida-ybm2.onrender.com' //'http://localhost:4000'
