@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import axios from 'axios';
 import { assets } from '../../assets/assets.js';
 
-export const url = 'https://delivery-de-comida-ybm2.onrender.com'
+export const url = 'https://delivery-de-comida-2.onrender.com'
 
 const Orders = ({ url }) => {
   const [orders, setOrders] = useState([]);
