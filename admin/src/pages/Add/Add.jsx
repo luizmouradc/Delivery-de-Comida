@@ -4,6 +4,8 @@ import {assets} from '../../assets/assets'
 import axios from "axios"
 import { toast } from 'react-toastify'
 
+export const url = 'https://delivery-de-comida-ybm2.onrender.com'
+
 const Add = ({url}) => {
 
   const [image, setImage] = useState(false);
