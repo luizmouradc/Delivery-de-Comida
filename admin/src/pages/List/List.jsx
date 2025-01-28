@@ -3,6 +3,8 @@ import './List.css'
 import axios from "axios"
 import {toast} from "react-toastify"
 
+export const url = 'https://delivery-de-comida-2.onrender.com'
+
 const List = ({url}) => {
 
   const [list, setList] = useState([])
